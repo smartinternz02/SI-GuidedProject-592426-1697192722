@@ -1,0 +1,19 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[remote "Book-A-Doctor"]
+	url = https://github.com/20481A12J2/Book-A-Doctor.git
+	fetch = +refs/heads/*:refs/remotes/Book-A-Doctor/*
+[branch "main"]
+	remote = Book-A-Doctor
+	merge = refs/heads/main
+[remote "BOOK-A-DOCTOR"]
+	url = https://github.com/20481a12f4/Book-A-Doctor.git
+	fetch = +refs/heads/*:refs/remotes/BOOK-A-DOCTOR/*
+[remote "origin"]
+	url = https://github.com/20481a12f4/Book-A-Doctor.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
